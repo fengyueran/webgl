@@ -2,14 +2,15 @@ import React from 'react';
 import styled from 'styled-components';
 import { Routes, Route } from 'react-router-dom';
 
-import { LessonRoutes } from 'src/views/root/routes';
+import { LessonRoutes } from 'src/routes';
 
 const Container = styled.div`
   flex-grow: 1;
   height: 100%;
+  overflow: hidden;
 `;
 
-const Canvas = () => (
+export const CanvasRoutes = () => (
   <Container>
     <Routes>
       {LessonRoutes.map(({ path, component: Component }) => (
@@ -18,5 +19,3 @@ const Canvas = () => (
     </Routes>
   </Container>
 );
-
-export default Canvas;

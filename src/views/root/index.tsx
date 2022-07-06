@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
 
 import { Row } from 'src/components/flex-box';
-import Catalogue from '../catalogue';
-import Canvas from '../canvas';
+import { Catalogue } from '../catalogue';
+import { CanvasRoutes } from '../canvas-routes';
 import { catalogueTree } from './catalogue-tree';
 
 const Container = styled(Row)`
@@ -23,7 +23,7 @@ export const Root = () => {
   return (
     <Container>
       <Catalogue treeData={catalogueTree} onSelect={onSelect} />
-      <Canvas />
+      <CanvasRoutes />
     </Container>
   );
 };

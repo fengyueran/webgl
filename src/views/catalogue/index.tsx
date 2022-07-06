@@ -7,6 +7,7 @@ const Container = styled.div`
   width: 300px;
   height: 100%;
   border-right: 1px solid #e8e8e8;
+  flex-shrink: 0;
 `;
 
 interface Props {
@@ -14,10 +15,8 @@ interface Props {
   onSelect: (slected: any) => void;
 }
 
-const Catalogue: React.FC<Props> = ({ treeData, onSelect }) => (
+export const Catalogue: React.FC<Props> = ({ treeData, onSelect }) => (
   <Container>
     <TreeSelect treeData={treeData} onSelect={onSelect} />
   </Container>
 );
-
-export default Catalogue;
