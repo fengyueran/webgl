@@ -1,7 +1,9 @@
 import { useEffect, useRef } from 'react';
 import styled from 'styled-components';
 
-const Canvas = styled.canvas``;
+const Canvas = styled.canvas`
+  background: #dad4d8;
+`;
 
 export const DrawRectangle = () => {
   const nodeRef = useRef<HTMLCanvasElement | null>(null);
