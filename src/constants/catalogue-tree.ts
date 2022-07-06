@@ -1,5 +1,3 @@
-import { Node } from 'src/components/tree-select';
-
 export const LESSONS = {
   C2_01: '/01-draw-rectangle',
   C2_02: '/02-hello-canvas',
@@ -19,4 +17,4 @@ export const catalogueTree = [
       },
     ],
   },
-] as Node[];
+];
