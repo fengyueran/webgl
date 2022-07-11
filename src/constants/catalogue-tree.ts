@@ -7,6 +7,7 @@ export const LESSONS = {
   C2_06: '/06-colored-points',
 
   C3_01: '/01-multi-point',
+  C3_02: '/02-hello-triangle',
 };
 
 export const catalogueTree = [
@@ -45,6 +46,10 @@ export const catalogueTree = [
       {
         title: '01-multi-point',
         value: LESSONS.C3_01,
+      },
+      {
+        title: '02-hello-triangle',
+        value: LESSONS.C3_02,
       },
     ],
   },

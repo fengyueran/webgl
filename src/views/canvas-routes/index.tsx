@@ -21,6 +21,7 @@ const LessonRoutes = [
   { path: LESSONS.C2_06, component: chapter2.ColoredPoints },
 
   { path: LESSONS.C3_01, component: chapter3.MultiPoint },
+  { path: LESSONS.C3_02, component: chapter3.HelloTriangle },
 ];
 
 export const CanvasRoutes = () => (
