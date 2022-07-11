@@ -3,6 +3,7 @@ export const LESSONS = {
   C2_02: '/02-hello-canvas',
   C2_03: '/03-hello-point1',
   C2_04: '/04-hello-point2',
+  C2_05: '/05-clicked-points',
 };
 
 export const catalogueTree = [
@@ -24,6 +25,10 @@ export const catalogueTree = [
       {
         title: '04-hello-point2',
         value: LESSONS.C2_04,
+      },
+      {
+        title: '05-clicked-points',
+        value: LESSONS.C2_05,
       },
     ],
   },
