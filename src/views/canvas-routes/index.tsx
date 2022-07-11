@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { Routes, Route } from 'react-router-dom';
 
 import * as chapter2 from 'src/examples/ch02';
+import * as chapter3 from 'src/examples/ch03';
 import { LESSONS } from 'src/constants';
 
 const Container = styled.div`
@@ -18,6 +19,8 @@ const LessonRoutes = [
   { path: LESSONS.C2_04, component: chapter2.HelloPoint2 },
   { path: LESSONS.C2_05, component: chapter2.ClickedPoints },
   { path: LESSONS.C2_06, component: chapter2.ColoredPoints },
+
+  { path: LESSONS.C3_01, component: chapter3.MultiPoint },
 ];
 
 export const CanvasRoutes = () => (

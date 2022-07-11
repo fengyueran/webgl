@@ -4,7 +4,9 @@ export const LESSONS = {
   C2_03: '/03-hello-point1',
   C2_04: '/04-hello-point2',
   C2_05: '/05-clicked-points',
-  C2_06: '/05-colored-points',
+  C2_06: '/06-colored-points',
+
+  C3_01: '/01-multi-point',
 };
 
 export const catalogueTree = [
@@ -34,6 +36,15 @@ export const catalogueTree = [
       {
         title: '06-colored-points',
         value: LESSONS.C2_06,
+      },
+    ],
+  },
+  {
+    title: '2、绘制和变换三角形',
+    children: [
+      {
+        title: '01-multi-point',
+        value: LESSONS.C3_01,
       },
     ],
   },
