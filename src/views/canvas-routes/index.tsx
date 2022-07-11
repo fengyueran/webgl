@@ -23,6 +23,7 @@ const LessonRoutes = [
   { path: LESSONS.C3_01, component: chapter3.MultiPoint },
   { path: LESSONS.C3_02, component: chapter3.HelloTriangle },
   { path: LESSONS.C3_03, component: chapter3.HelloQuad },
+  { path: LESSONS.C3_04, component: chapter3.TranslatedTriangle },
 ];
 
 export const CanvasRoutes = () => (
