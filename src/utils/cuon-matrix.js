@@ -13,7 +13,7 @@
  * Otherwise, new matrix is initialized by identity matrix.
  * @param opt_src source matrix(option)
  */
-var Matrix4 = function (opt_src) {
+export const Matrix4 = function (opt_src) {
   var i, s, d;
   if (
     opt_src &&

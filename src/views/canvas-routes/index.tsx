@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import * as chapter2 from 'src/examples/ch02';
 import * as chapter3 from 'src/examples/ch03';
+import * as chapter4 from 'src/examples/ch04';
 import { LESSONS } from 'src/constants';
 
 const Container = styled.div`
@@ -27,6 +28,8 @@ const LessonRoutes = [
   { path: LESSONS.C3_05, component: chapter3.RotatedTriangle },
   { path: LESSONS.C3_06, component: chapter3.RotatedTriangleMatrix },
   { path: LESSONS.C3_07, component: chapter3.ScaledTriangleMatrix },
+
+  { path: LESSONS.C4_01, component: chapter4.RotatedTriangleMatrix4 },
 ];
 
 export const CanvasRoutes = () => (

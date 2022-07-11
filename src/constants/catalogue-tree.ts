@@ -13,6 +13,8 @@ export const LESSONS = {
   C3_05: '/05-rotated-triangle',
   C3_06: '/06-rotated-triangle-matrix',
   C3_07: '/07-scaled-triangle-matrix',
+
+  C4_01: '/01-rotated-triangle-matrix4',
 };
 
 export const catalogueTree = [
@@ -75,6 +77,15 @@ export const catalogueTree = [
       {
         title: '07-scaled-triangle-matrix',
         value: LESSONS.C3_07,
+      },
+    ],
+  },
+  {
+    title: '3、高级变换与动画基础',
+    children: [
+      {
+        title: '01-rotated-triangle-matrix4',
+        value: LESSONS.C4_01,
       },
     ],
   },
