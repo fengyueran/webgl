@@ -10,6 +10,7 @@ export const LESSONS = {
   C3_02: '/02-hello-triangle',
   C3_03: '/03-hello-quad',
   C3_04: '/04-translated-triangle',
+  C3_05: '/05-rotated-triangle',
 };
 
 export const catalogueTree = [
@@ -60,6 +61,10 @@ export const catalogueTree = [
       {
         title: '04-translated-triangle',
         value: LESSONS.C3_04,
+      },
+      {
+        title: '05-rotated-triangle',
+        value: LESSONS.C3_05,
       },
     ],
   },
