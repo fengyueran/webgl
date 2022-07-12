@@ -17,6 +17,8 @@ export const LESSONS = {
   C4_01: '/01-rotated-triangle-matrix4',
   C4_02: '/02-rotated-translated-triangle',
   C4_03: '/03-rotating-triangle',
+
+  C5_01: '/01-multi-attribute-size',
 };
 
 export const catalogueTree = [
@@ -96,6 +98,15 @@ export const catalogueTree = [
       {
         title: '03-rotating-triangle',
         value: LESSONS.C4_03,
+      },
+    ],
+  },
+  {
+    title: '4、颜色与纹理',
+    children: [
+      {
+        title: '01-multi-attribute-size',
+        value: LESSONS.C5_01,
       },
     ],
   },
