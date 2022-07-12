@@ -19,6 +19,7 @@ export const LESSONS = {
   C4_03: '/03-rotating-triangle',
 
   C5_01: '/01-multi-attribute-size',
+  C5_02: '/02-multi-attribute-size-interleaved',
 };
 
 export const catalogueTree = [
@@ -107,6 +108,10 @@ export const catalogueTree = [
       {
         title: '01-multi-attribute-size',
         value: LESSONS.C5_01,
+      },
+      {
+        title: '02-multi-attribute-size-interleaved',
+        value: LESSONS.C5_02,
       },
     ],
   },

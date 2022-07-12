@@ -35,6 +35,7 @@ const LessonRoutes = [
   { path: LESSONS.C4_03, component: chapter4.RotatingTriangle },
 
   { path: LESSONS.C5_01, component: chapter5.MultiAttributeSize },
+  { path: LESSONS.C5_02, component: chapter5.MultiAttributeSizeInterleaved },
 ];
 
 export const CanvasRoutes = () => (
