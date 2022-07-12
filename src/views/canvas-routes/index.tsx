@@ -31,6 +31,7 @@ const LessonRoutes = [
 
   { path: LESSONS.C4_01, component: chapter4.RotatedTriangleMatrix4 },
   { path: LESSONS.C4_02, component: chapter4.RotatedTranslatedTriangle },
+  { path: LESSONS.C4_03, component: chapter4.RotatingTriangle },
 ];
 
 export const CanvasRoutes = () => (

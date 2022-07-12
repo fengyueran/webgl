@@ -16,6 +16,7 @@ export const LESSONS = {
 
   C4_01: '/01-rotated-triangle-matrix4',
   C4_02: '/02-rotated-translated-triangle',
+  C4_03: '/03-rotating-triangle',
 };
 
 export const catalogueTree = [
@@ -91,6 +92,10 @@ export const catalogueTree = [
       {
         title: '02-rotated-translated-triangle',
         value: LESSONS.C4_02,
+      },
+      {
+        title: '03-rotating-triangle',
+        value: LESSONS.C4_03,
       },
     ],
   },
