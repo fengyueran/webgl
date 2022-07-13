@@ -1,6 +1,6 @@
 // ColoredTriangle.js (c) 2012 matsuda
 // Vertex shader program
-var VSHADER_SOURCE = 
+var VSHADER_SOURCE =
   'attribute vec4 a_Position;\n' +
   'attribute vec4 a_Color;\n' +
   'varying vec4 v_Color;\n' +
@@ -10,10 +10,8 @@ var VSHADER_SOURCE =
   '}\n';
 
 // Fragment shader program
-var FSHADER_SOURCE = 
-  '#ifdef GL_ES\n' +
+var FSHADER_SOURCE =
   'precision mediump float;\n' +
-  '#endif GL_ES\n' +
   'varying vec4 v_Color;\n' +
   'void main() {\n' +
   '  gl_FragColor = v_Color;\n' +
@@ -36,7 +34,7 @@ function main() {
     return;
   }
 
-  // 
+  //
   var n = initVertexBuffers(gl);
   if (n < 0) {
     console.log('Failed to set the vertex information');
@@ -56,14 +54,13 @@ function main() {
 function initVertexBuffers(gl) {
   var verticesColors = new Float32Array([
     // Vertex coordinates and color
-     0.0,  0.5,  1.0,  0.0,  0.0, 
-    -0.5, -0.5,  0.0,  1.0,  0.0, 
-     0.5, -0.5,  0.0,  0.0,  1.0, 
+    0.0, 0.5, 1.0, 0.0, 0.0, -0.5, -0.5, 0.0, 1.0, 0.0, 0.5, -0.5, 0.0, 0.0,
+    1.0,
   ]);
   var n = 3;
 
   // Create a buffer object
-  var vertexColorBuffer = gl.createBuffer();  
+  var vertexColorBuffer = gl.createBuffer();
   if (!vertexColorBuffer) {
     console.log('Failed to create the buffer object');
     return false;
@@ -81,16 +78,16 @@ function initVertexBuffers(gl) {
     return -1;
   }
   gl.vertexAttribPointer(a_Position, 2, gl.FLOAT, false, FSIZE * 5, 0);
-  gl.enableVertexAttribArray(a_Position);  // Enable the assignment of the buffer object
+  gl.enableVertexAttribArray(a_Position); // Enable the assignment of the buffer object
 
   // Get the storage location of a_Position, assign buffer and enable
   var a_Color = gl.getAttribLocation(gl.program, 'a_Color');
-  if(a_Color < 0) {
+  if (a_Color < 0) {
     console.log('Failed to get the storage location of a_Color');
     return -1;
   }
   gl.vertexAttribPointer(a_Color, 3, gl.FLOAT, false, FSIZE * 5, FSIZE * 2);
-  gl.enableVertexAttribArray(a_Color);  // Enable the assignment of the buffer object
+  gl.enableVertexAttribArray(a_Color); // Enable the assignment of the buffer object
 
   // Unbind the buffer object
   gl.bindBuffer(gl.ARRAY_BUFFER, null);

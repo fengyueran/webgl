@@ -38,6 +38,7 @@ const LessonRoutes = [
   { path: LESSONS.C5_02, component: chapter5.MultiAttributeSizeInterleaved },
   { path: LESSONS.C5_03, component: chapter5.MultiAttributeColor },
   { path: LESSONS.C5_04, component: chapter5.ColoredTriangle },
+  { path: LESSONS.C5_05, component: chapter5.HelloTriangleFragCoord },
 ];
 
 export const CanvasRoutes = () => (

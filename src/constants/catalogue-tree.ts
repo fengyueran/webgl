@@ -22,6 +22,7 @@ export const LESSONS = {
   C5_02: '/02-multi-attribute-size-interleaved',
   C5_03: '/03-multi-attribute-color',
   C5_04: '/04-colored-triangle',
+  C5_05: '/05-hello-triangle-frag-coord',
 };
 
 export const catalogueTree = [
@@ -122,6 +123,10 @@ export const catalogueTree = [
       {
         title: '04-colored-triangle',
         value: LESSONS.C5_04,
+      },
+      {
+        title: '05-hello-triangle-frag-coord',
+        value: LESSONS.C5_05,
       },
     ],
   },

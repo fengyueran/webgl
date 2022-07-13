@@ -102,8 +102,8 @@ export const ColoredTriangle = () => {
     // Clear <canvas>
     gl.clear(gl.COLOR_BUFFER_BIT);
 
-    // Draw three points
-    gl.drawArrays(gl.POINTS, 0, n);
+    // Draw TRIANGLES
+    gl.drawArrays(gl.TRIANGLES, 0, n);
   }, []);
 
   return <Canvas ref={nodeRef} width="600px" height="700px" />;
