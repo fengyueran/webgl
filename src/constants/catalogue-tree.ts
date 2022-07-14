@@ -24,6 +24,7 @@ export const LESSONS = {
   C5_04: '/04-colored-triangle',
   C5_05: '/05-hello-triangle-frag-coord',
   C5_06: '/06-textured-quad',
+  C5_07: '/07-multi-texture',
 };
 
 export const catalogueTree = [
@@ -132,6 +133,10 @@ export const catalogueTree = [
       {
         title: '06-textured-quad',
         value: LESSONS.C5_06,
+      },
+      {
+        title: '07-multi-texture',
+        value: LESSONS.C5_07,
       },
     ],
   },

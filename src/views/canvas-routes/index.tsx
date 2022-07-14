@@ -40,6 +40,7 @@ const LessonRoutes = [
   { path: LESSONS.C5_04, component: chapter5.ColoredTriangle },
   { path: LESSONS.C5_05, component: chapter5.HelloTriangleFragCoord },
   { path: LESSONS.C5_06, component: chapter5.TexturedQuad },
+  { path: LESSONS.C5_07, component: chapter5.MultiTexture },
 ];
 
 export const CanvasRoutes = () => (
