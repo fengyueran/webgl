@@ -6,6 +6,7 @@ import * as chapter2 from 'src/examples/ch02';
 import * as chapter3 from 'src/examples/ch03';
 import * as chapter4 from 'src/examples/ch04';
 import * as chapter5 from 'src/examples/ch05';
+import * as chapter7 from 'src/examples/ch07';
 import { LESSONS } from 'src/constants';
 
 const Container = styled.div`
@@ -41,6 +42,8 @@ const LessonRoutes = [
   { path: LESSONS.C5_05, component: chapter5.HelloTriangleFragCoord },
   { path: LESSONS.C5_06, component: chapter5.TexturedQuad },
   { path: LESSONS.C5_07, component: chapter5.MultiTexture },
+
+  { path: LESSONS.C7_01, component: chapter7.LookAtTriangles },
 ];
 
 export const CanvasRoutes = () => (

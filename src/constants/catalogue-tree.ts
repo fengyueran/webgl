@@ -25,6 +25,8 @@ export const LESSONS = {
   C5_05: '/05-hello-triangle-frag-coord',
   C5_06: '/06-textured-quad',
   C5_07: '/07-multi-texture',
+
+  C7_01: '/01-look-at-triangles',
 };
 
 export const catalogueTree = [
@@ -137,6 +139,16 @@ export const catalogueTree = [
       {
         title: '07-multi-texture',
         value: LESSONS.C5_07,
+      },
+    ],
+  },
+
+  {
+    title: '7、进入三维世界',
+    children: [
+      {
+        title: '01-look-at-triangles',
+        value: LESSONS.C7_01,
       },
     ],
   },
