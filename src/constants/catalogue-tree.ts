@@ -27,6 +27,7 @@ export const LESSONS = {
   C5_07: '/07-multi-texture',
 
   C7_01: '/01-look-at-triangles',
+  C7_02: '/02-look-at-rotated-triangles',
 };
 
 export const catalogueTree = [
@@ -149,6 +150,10 @@ export const catalogueTree = [
       {
         title: '01-look-at-triangles',
         value: LESSONS.C7_01,
+      },
+      {
+        title: '02-look-at-rotated-triangles',
+        value: LESSONS.C7_02,
       },
     ],
   },

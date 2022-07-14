@@ -44,6 +44,7 @@ const LessonRoutes = [
   { path: LESSONS.C5_07, component: chapter5.MultiTexture },
 
   { path: LESSONS.C7_01, component: chapter7.LookAtTriangles },
+  { path: LESSONS.C7_02, component: chapter7.LookAtRotatedTriangles },
 ];
 
 export const CanvasRoutes = () => (
