@@ -31,6 +31,7 @@ export const LESSONS = {
   C7_03: '/03-look-at-rotated-triangles-mvMatrix',
   C7_04: '/04-look-at-triangles-with-keys',
   C7_05: '/05-ortho-view',
+  C7_06: '/06-look-at-triangles-with-keys-view-volume',
 };
 
 export const catalogueTree = [
@@ -169,6 +170,10 @@ export const catalogueTree = [
       {
         title: '05-ortho-view',
         value: LESSONS.C7_05,
+      },
+      {
+        title: '06-look-at-triangles-with-keys-view-volume',
+        value: LESSONS.C7_06,
       },
     ],
   },
