@@ -45,6 +45,8 @@ const LessonRoutes = [
 
   { path: LESSONS.C7_01, component: chapter7.LookAtTriangles },
   { path: LESSONS.C7_02, component: chapter7.LookAtRotatedTriangles },
+  { path: LESSONS.C7_03, component: chapter7.LookAtRotatedTrianglesMVMatrix },
+
 ];
 
 export const CanvasRoutes = () => (
