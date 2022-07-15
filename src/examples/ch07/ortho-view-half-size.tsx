@@ -95,7 +95,7 @@ function keydown(
 
 function draw(gl: any, n: number, u_ProjMatrix: any, projMatrix: any, nf: any) {
   // Specify the viewing volume
-  projMatrix.setOrtho(-1.0, 1.0, -1.0, 1.0, g_near, g_far);
+  projMatrix.setOrtho(-0.5, 0.5, -0.5, 0.5, g_near, g_far);
 
   // Pass the projection matrix to u_ProjMatrix
   gl.uniformMatrix4fv(u_ProjMatrix, false, projMatrix.elements);
@@ -133,7 +133,7 @@ var FSHADER_SOURCE =
   '  gl_FragColor = v_Color;\n' +
   '}\n';
 
-export const OrthoView = () => {
+export const OrthoViewHalfSize = () => {
   const nodeRef = useRef<HTMLCanvasElement | null>(null);
   const nearFarNodeRef = useRef<HTMLParagraphElement | null>(null);
 

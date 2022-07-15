@@ -67,5 +67,5 @@ export const HelloPoint2 = () => {
     gl.drawArrays(gl.POINTS, 0, 1);
   }, []);
 
-  return <Canvas ref={nodeRef} width="600px" height="700px" />;
+  return <Canvas ref={nodeRef} width="600px" height="600px" />;
 };

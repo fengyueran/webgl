@@ -169,5 +169,5 @@ export const LookAtTrianglesWithKeysViewVolume = () => {
     draw(gl, n, u_ViewMatrix, viewMatrix); // Draw the triangles
   }, []);
 
-  return <Canvas ref={nodeRef} width="600px" height="700px" />;
+  return <Canvas ref={nodeRef} width="600px" height="600px" />;
 };

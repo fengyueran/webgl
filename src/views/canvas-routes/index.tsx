@@ -52,6 +52,14 @@ const LessonRoutes = [
     path: LESSONS.C7_06,
     component: chapter7.LookAtTrianglesWithKeysViewVolume,
   },
+  {
+    path: LESSONS.C7_07,
+    component: chapter7.OrthoViewHalfSize,
+  },
+  {
+    path: LESSONS.C7_08,
+    component: chapter7.OrthoViewHalfWidth,
+  },
 ];
 
 export const CanvasRoutes = () => (

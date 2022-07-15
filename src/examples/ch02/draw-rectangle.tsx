@@ -19,5 +19,5 @@ export const DrawRectangle = () => {
     ctx!.fillRect(40, 40, 300, 300); // Fill a rectangle with the color
   }, []);
 
-  return <Canvas ref={nodeRef} width="600px" height="700px" />;
+  return <Canvas ref={nodeRef} width="600px" height="600px" />;
 };

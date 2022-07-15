@@ -132,5 +132,5 @@ export const LookAtTriangles = () => {
     gl.drawArrays(gl.TRIANGLES, 0, n);
   }, []);
 
-  return <Canvas ref={nodeRef} width="600px" height="700px" />;
+  return <Canvas ref={nodeRef} width="600px" height="600px" />;
 };

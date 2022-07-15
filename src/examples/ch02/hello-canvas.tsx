@@ -27,5 +27,5 @@ export const HelloCanvas = () => {
     gl.clear(gl.COLOR_BUFFER_BIT);
   }, []);
 
-  return <Canvas ref={nodeRef} width="600px" height="700px" />;
+  return <Canvas ref={nodeRef} width="600px" height="600px" />;
 };

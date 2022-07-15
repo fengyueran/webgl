@@ -87,12 +87,23 @@ export const RotatedTriangleMatrix = () => {
 
     // Note: WebGL is column major order
     var xformMatrix = new Float32Array([
-      cosB, sinB, 0.0, 0.0,
-     -sinB, cosB, 0.0, 0.0,
-       0.0,  0.0, 1.0, 0.0,
-       0.0,  0.0, 0.0, 1.0
-   ]);
- 
+      cosB,
+      sinB,
+      0.0,
+      0.0,
+      -sinB,
+      cosB,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+    ]);
 
     // Pass the rotation matrix to the vertex shader
     var u_xformMatrix = gl.getUniformLocation(gl.program, 'u_xformMatrix');
@@ -115,5 +126,5 @@ export const RotatedTriangleMatrix = () => {
     // gl.drawArrays(gl.LINE_LOOP, 0, n);
   }, []);
 
-  return <Canvas ref={nodeRef} width="600px" height="700px" />;
+  return <Canvas ref={nodeRef} width="600px" height="600px" />;
 };

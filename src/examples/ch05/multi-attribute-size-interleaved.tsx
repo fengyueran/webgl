@@ -107,5 +107,5 @@ export const MultiAttributeSizeInterleaved = () => {
     gl.drawArrays(gl.POINTS, 0, n);
   }, []);
 
-  return <Canvas ref={nodeRef} width="600px" height="700px" />;
+  return <Canvas ref={nodeRef} width="600px" height="600px" />;
 };

@@ -81,12 +81,24 @@ export const ScaledTriangleMatrix = () => {
     var Sx = 1.0,
       Sy = 1.5,
       Sz = 1.0;
-      // Note: WebGL is column major order
+    // Note: WebGL is column major order
     var xformMatrix = new Float32Array([
-      Sx,   0.0,  0.0,  0.0,
-      0.0,  Sy,   0.0,  0.0,
-      0.0,  0.0,  Sz,   0.0,
-      0.0,  0.0,  0.0,  1.0
+      Sx,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      Sy,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      Sz,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      1.0,
     ]);
     // Pass the rotation matrix to the vertex shader
     var u_xformMatrix = gl.getUniformLocation(gl.program, 'u_xformMatrix');
@@ -108,5 +120,5 @@ export const ScaledTriangleMatrix = () => {
     // gl.drawArrays(gl.LINE_LOOP, 0, n);
   }, []);
 
-  return <Canvas ref={nodeRef} width="600px" height="700px" />;
+  return <Canvas ref={nodeRef} width="600px" height="600px" />;
 };

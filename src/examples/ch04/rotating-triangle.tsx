@@ -134,5 +134,5 @@ export const RotatingTriangle = () => {
     tick();
   }, []);
 
-  return <Canvas ref={nodeRef} width="600px" height="700px" />;
+  return <Canvas ref={nodeRef} width="600px" height="600px" />;
 };
