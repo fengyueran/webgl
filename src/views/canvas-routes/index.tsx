@@ -60,6 +60,10 @@ const LessonRoutes = [
     path: LESSONS.C7_08,
     component: chapter7.OrthoViewHalfWidth,
   },
+  {
+    path: LESSONS.C7_09,
+    component: chapter7.PerspectiveView,
+  },
 ];
 
 export const CanvasRoutes = () => (

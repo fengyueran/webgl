@@ -6,3 +6,4 @@ export * from './ortho-view';
 export * from './look-at-triangles-with-keys-view-volume';
 export * from './ortho-view-half-size';
 export * from './ortho-view-half-width';
+export * from './perspective-view';

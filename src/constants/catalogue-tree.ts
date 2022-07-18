@@ -34,6 +34,7 @@ export const LESSONS = {
   C7_06: '/06-look-at-triangles-with-keys-view-volume',
   C7_07: '/07-ortho-view-half-size',
   C7_08: '/08-ortho-view-half-width',
+  C7_09: '/09-perspective-view',
 };
 
 export const catalogueTree = [
@@ -178,12 +179,16 @@ export const catalogueTree = [
         value: LESSONS.C7_06,
       },
       {
-        title: '007-ortho-view-half-size',
+        title: '07-ortho-view-half-size',
         value: LESSONS.C7_07,
       },
       {
-        title: '06-08-ortho-view-half-width',
+        title: '08-ortho-view-half-width',
         value: LESSONS.C7_08,
+      },
+      {
+        title: '09-perspective-view',
+        value: LESSONS.C7_09,
       },
     ],
   },
