@@ -37,6 +37,7 @@ export const LESSONS = {
   C7_09: '/09-perspective-view',
   C7_10: '/10-perspective-view-mvp',
   C7_11: '/11-perspective-view-mvp-matrix',
+  C7_12: '/12-depth-buffer',
 };
 
 export const catalogueTree = [
@@ -199,6 +200,10 @@ export const catalogueTree = [
       {
         title: '11-perspective-view-mvp-matrix',
         value: LESSONS.C7_11,
+      },
+      {
+        title: '12-depth-buffer',
+        value: LESSONS.C7_12,
       },
     ],
   },

@@ -9,3 +9,4 @@ export * from './ortho-view-half-width';
 export * from './perspective-view';
 export * from './perspective-view-mvp';
 export * from './perspective-view-mvp-matrix';
+export * from './depth-buffer';
