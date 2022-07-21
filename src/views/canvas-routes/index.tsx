@@ -76,6 +76,10 @@ const LessonRoutes = [
     path: LESSONS.C7_12,
     component: chapter7.DepthBuffer,
   },
+  {
+    path: LESSONS.C7_13,
+    component: chapter7.ZFighting,
+  },
 ];
 
 export const CanvasRoutes = () => (
