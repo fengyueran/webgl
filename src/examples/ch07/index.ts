@@ -8,3 +8,4 @@ export * from './ortho-view-half-size';
 export * from './ortho-view-half-width';
 export * from './perspective-view';
 export * from './perspective-view-mvp';
+export * from './perspective-view-mvp-matrix';

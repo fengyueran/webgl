@@ -68,6 +68,10 @@ const LessonRoutes = [
     path: LESSONS.C7_10,
     component: chapter7.PerspectiveViewMvp,
   },
+  {
+    path: LESSONS.C7_11,
+    component: chapter7.PerspectiveViewMVPMatrix,
+  },
 ];
 
 export const CanvasRoutes = () => (
