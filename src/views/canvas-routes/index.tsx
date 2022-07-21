@@ -84,6 +84,10 @@ const LessonRoutes = [
     path: LESSONS.C7_14,
     component: chapter7.HelloCube,
   },
+  {
+    path: LESSONS.C7_15,
+    component: chapter7.ColoredCube,
+  },
 ];
 
 export const CanvasRoutes = () => (

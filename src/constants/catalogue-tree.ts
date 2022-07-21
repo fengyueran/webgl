@@ -40,6 +40,7 @@ export const LESSONS = {
   C7_12: '/12-depth-buffer',
   C7_13: '/13-z-fighting',
   C7_14: '/14-hello-cube',
+  C7_15: '/15-colored-cube',
 };
 
 export const catalogueTree = [
@@ -214,6 +215,10 @@ export const catalogueTree = [
       {
         title: '14-hello-cube',
         value: LESSONS.C7_14,
+      },
+      {
+        title: '15-colored-cube',
+        value: LESSONS.C7_15,
       },
     ],
   },
