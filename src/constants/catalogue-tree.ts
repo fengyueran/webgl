@@ -35,6 +35,7 @@ export const LESSONS = {
   C7_07: '/07-ortho-view-half-size',
   C7_08: '/08-ortho-view-half-width',
   C7_09: '/09-perspective-view',
+  C7_10: '/10-perspective-view-mvp',
 };
 
 export const catalogueTree = [
@@ -189,6 +190,10 @@ export const catalogueTree = [
       {
         title: '09-perspective-view',
         value: LESSONS.C7_09,
+      },
+      {
+        title: '10-perspective-view-mvp',
+        value: LESSONS.C7_10,
       },
     ],
   },
