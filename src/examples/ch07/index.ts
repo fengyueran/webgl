@@ -11,3 +11,4 @@ export * from './perspective-view-mvp';
 export * from './perspective-view-mvp-matrix';
 export * from './depth-buffer';
 export * from './z-fighting';
+export * from './hello-cube';

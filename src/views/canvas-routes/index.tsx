@@ -80,6 +80,10 @@ const LessonRoutes = [
     path: LESSONS.C7_13,
     component: chapter7.ZFighting,
   },
+  {
+    path: LESSONS.C7_14,
+    component: chapter7.HelloCube,
+  },
 ];
 
 export const CanvasRoutes = () => (
